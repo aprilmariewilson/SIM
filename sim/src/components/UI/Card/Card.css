@@ -1,0 +1,42 @@
+.cardCardHolder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.card {
+	order: 0;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: rgba(0, 0, 0, 0.705);
+
+}
+
+.cardLink {
+	color: rgba(255, 255, 255, 0.822);
+	text-decoration: none;
+}
+.cardLink:active, .cardLink:hover{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+/* .cardCard {
+	margin-bottom: 20px;
+} */
+
+.cardCSS {
+	width: 360px !important;
+	order: 0;
+	margin-right: 39px;
+	background-color: rgba(0, 0, 0, 0.55);
+	padding-bottom:20px;
+}
+
+.cardsCSS {
+	margin-bottom: 20px !important;
+}
